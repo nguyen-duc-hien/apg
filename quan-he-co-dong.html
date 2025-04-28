@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- taildwind css import -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/assets/js/tailwind.config.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/style/main.css" />
+
+    <!-- font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- fancy box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- header pc -->
+            <div class="header-pc header-home hidden lg:block fixed top-0 w-full z-[5]">
+                <div class="container">
+                    <!-- first-header -->
+                    <div class="bg-purple-gray-10 px-6 h-10 flex items-center justify-between">
+                        <div class="">
+                            <form action="" class="relative pl-6">
+                                <label class="input-label">
+                                    <input type="text" class="input-field transparent" placeholder="Tìm kiếm">
+                                </label>
+                                <button class="absolute left-0 top-1/2 -translate-y-1/2">
+                                    <figure><img src="/assets/image/icon/mag-glass.svg" alt=""></figure>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <!-- hotline -->
+                            <div class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <path
+                                        d="M12.372 15.5C12.2163 15.4996 12.061 15.4832 11.9089 15.4511C9.01316 14.8768 6.34541 13.5303 4.21268 11.5665C2.12547 9.59838 0.677879 7.09255 0.0450497 4.35217C-0.0295688 4.01064 -0.0112545 3.65645 0.0982308 3.32366C0.207716 2.99088 0.404688 2.69071 0.670195 2.45203L2.52248 0.742794C2.61708 0.657015 2.7295 0.591328 2.85238 0.550019C2.97525 0.50871 3.10584 0.492707 3.2356 0.503056C3.37016 0.516514 3.5 0.558068 3.616 0.624798C3.73201 0.691527 3.83135 0.781811 3.90706 0.8893L6.22241 4.17015C6.30924 4.29745 6.35115 4.44811 6.34198 4.59996C6.33281 4.75181 6.27304 4.89683 6.17147 5.01367L5.00916 6.34555C5.47207 7.32778 6.12764 8.21553 6.94017 8.96046C7.74744 9.73242 8.70161 10.3488 9.75101 10.7763L11.1912 9.67967C11.3121 9.58803 11.4593 9.53384 11.6131 9.52433C11.767 9.51481 11.9202 9.55041 12.0525 9.6264L15.5486 11.7929C15.6686 11.8616 15.7708 11.9554 15.8476 12.0673C15.9244 12.1793 15.9738 12.3064 15.9921 12.4392C16.0103 12.572 15.997 12.7071 15.9531 12.8343C15.9092 12.9615 15.8358 13.0775 15.7385 13.1736L13.9325 14.8873C13.7274 15.083 13.4839 15.2379 13.2161 15.343C12.9483 15.4482 12.6614 15.5015 12.372 15.5ZM3.16151 1.38209L1.30923 3.09133C1.15987 3.22476 1.0493 3.39317 0.98841 3.57999C0.927516 3.76681 0.91839 3.96561 0.961929 4.15683C1.55036 6.7283 2.90299 9.08135 4.85635 10.9316C6.86339 12.7792 9.37389 14.0457 12.0988 14.5854C12.305 14.6268 12.5188 14.6184 12.7208 14.561C12.9228 14.5037 13.1069 14.3992 13.2564 14.2569L15.0624 12.5432L11.6866 10.4522L10.14 11.6331C10.0808 11.678 10.011 11.7084 9.93675 11.7215C9.86249 11.7347 9.78601 11.7302 9.71396 11.7086C8.42973 11.2549 7.26592 10.5348 6.30576 9.59976C5.31264 8.71061 4.54175 7.61794 4.05061 6.40326C4.02983 6.32973 4.02914 6.2523 4.0486 6.17844C4.06807 6.10457 4.10703 6.03675 4.16175 5.9815L5.41204 4.54752L3.16151 1.38209Z"
+                                        fill="#2B2E3A" />
+                                </svg>
+                                <p class="text-body-sm-regular text-purple-gray-70">
+                                    Hotline:
+                                    <a href="#" class="inline-block link-text">
+                                        0918 410 277
+                                    </a>
+                                </p>
+                            </div>
+                            <hr class="min-h-6 divider-d6 vertical">
+                            <a href="#" class="link-text">
+                                Liên hệ
+                            </a>
+                            <hr class="min-h-6 divider-d6 vertical">
+
+                            <!-- language select -->
+                            <!-- sau thay plugin là có cờ -->
+                            <div class="flex items-center gap-2">
+                                <figure class="min-w-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path
+                                            d="M19.6551 17.5517H0.344843C0.154414 17.5517 0 17.3973 0 17.2069V4.79309C0 4.60266 0.154414 4.44824 0.344843 4.44824H19.6552C19.8456 4.44824 20 4.60266 20 4.79309V17.2069C20 17.3973 19.8455 17.5517 19.6551 17.5517Z"
+                                            fill="#FF4B55" />
+                                        <path
+                                            d="M10.1611 7.09252L11.0833 9.85775L13.9982 9.88033C14.1611 9.88158 14.2287 10.0896 14.0976 10.1864L11.7527 11.918L12.632 14.6972C12.6812 14.8526 12.5042 14.9812 12.3716 14.8864L10.0002 13.1913L7.62869 14.8864C7.49611 14.9811 7.31916 14.8526 7.3683 14.6972L8.24756 11.918L5.90268 10.1864C5.77155 10.0896 5.83916 9.88158 6.00213 9.88033L8.91701 9.85775L9.83923 7.09252C9.89084 6.93791 10.1095 6.93791 10.1611 7.09252Z"
+                                            fill="#FFE15A" />
+                                    </svg>
+                                </figure>
+                                <div class="input-label">
+                                    <select class="input-field language">
+                                        <option value="">VI</option>
+                                        <option value="">EN</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second-header -->
+                    <div class="flex items-center justify-between py-[18px] px-6 gap-6 2xl:gap-10">
+                        <a href="/">
+                            <figure class="lg:max-w-20"><img src="/assets/image/header-logo.svg" alt="logo"></figure>
+                        </a>
+                        <nav class="flex-1">
+                            <ul class="flex items-center justify-between gap-4 2xl:gap-8">
+                                <li class="">
+                                    <a href="#" class="link-nav">Giới thiệu</a>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Dịch vụ chứng khoán
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Quan hệ nhà đầu tư
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Trung tâm hỗ trợ
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Tin tức
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Phát triển cùng APG
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="button-wrap">
+                            <a href="#" class="button-inner">Giao dịch ngay</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- header-mobile -->
+            <div class="w-full lg:hidden header-mobile fixed top-0 z-[5] ">
+                <div class="container flex justify-between py-5">
+                    <a href="/">
+                        <div class="logo">
+                            <figure class="max-w-[60px]">
+                                <img src="/assets/image/header-logo.svg" alt="logo">
+                            </figure>
+                        </div>
+                    </a>
+                    <button class="breadcrumb-button">
+                        <figure>
+                            <img src="/assets/image/icon/3bar.svg" alt="">
+                        </figure>
+                    </button>
+                </div>
+                <div
+                    class="breadcrumb-header hidden fixed w-[70vw] max-w-[350px] h-[100vh] top-0 right-0 z-[5] transform transition-transform duration-300 ease-in-out translate-x-full">
+                    <div class="shadow-1 flex flex-col gap-10 bg-white w-full h-full p-6">
+                        <div class="flex items-center justify-between">
+                            <a href="/">
+                                <div class="logo">
+                                    <figure class="max-w-[60px]">
+                                        <img src="/assets/image/header-logo.svg" alt="logo">
+                                    </figure>
+                                </div>
+                            </a>
+                            <button class="breadcrumb-close">
+                                <figure class="w-8 h-8">
+                                    <img src="/assets/image/icon/close.svg" alt="">
+                                </figure>
+                            </button>
+                        </div>
+
+                        <div class="breadcrumb-container custom-scrollbar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- holder header -->
+            <!-- <div class="h-[95px] lg:h-[106px] 2xl:h-[136px]"></div> -->
+        </div>
+    </header>
+    <main>
+        <!-- -------------------- section 1 -------------------- -->
+        <style>
+            .banner-img {
+                background: url(/assets/image/banner-img.png) no-repeat center/cover;
+            }
+        </style>
+        <section class="head-banner banner-img">
+            <div class="container relative z-[2]">
+                <div class="flex flex-col gap-6">
+                    <nav class="breadcrumb text-body-lg-regular text-white" aria-label="breadcrumb">
+                        <ol class="flex flex-wrap gap-3 items-center" itemscope=""
+                            itemtype="https://schema.org/BreadcrumbList">
+
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                <a href="#" class="hover:text-secondary" itemprop="item">
+                                    <span itemprop="name">Trang chủ</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.51192 4.43057C8.82641 4.161 9.29989 4.19743 9.56946 4.51192L15.5695 11.5119C15.8102 11.7928 15.8102 12.2072 15.5695 12.4881L9.56946 19.4881C9.29989 19.8026 8.82641 19.839 8.51192 19.5695C8.19743 19.2999 8.161 18.8264 8.43057 18.5119L14.0122 12L8.43057 5.48811C8.161 5.17361 8.19743 4.70014 8.51192 4.43057Z"
+                                    fill="white" />
+                            </svg>
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"
+                                aria-current="page">
+                                <span itemprop="name">Quan hệ cổ đông</span>
+                                <meta itemprop="position" content="4">
+                            </li>
+
+                        </ol>
+                    </nav>
+                    <h1 class="text-heading-h4-medium text-white">Quan hệ cổ đông</h1>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------- section 2 -------------------- -->
+        <section class="py-10 lg:pt-20 lg:pb-[100px]">
+            <div class="container">
+                <div class="grid grid-cols-12 gap-6">
+                    <div class="col-span-12 lg:col-span-3">
+                        <div class="lg:max-w-[302px] tab-wrap">
+                            <div class="tab-item" data-tab="bctc">
+                                <p class="text">Báo cáo tài chính</p>
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z"
+                                            fill="#FA662B" />
+                                    </svg>
+                                </figure>
+                            </div>
+                            <div class="tab-item" data-tab="bctc1">
+                                <p class="text">Công bố thông tin</p>
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z"
+                                            fill="#FA662B" />
+                                    </svg>
+                                </figure>
+                            </div>
+                            <div class="tab-item" data-tab="bctc2">
+                                <p class="text">Điều lệ/ Quy chế</p>
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z"
+                                            fill="#FA662B" />
+                                    </svg>
+                                </figure>
+                            </div>
+                            <div class="tab-item" data-tab="bctc3">
+                                <p class="text">Đại hội cổ đông</p>
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z"
+                                            fill="#FA662B" />
+                                    </svg>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 lg:col-span-9">
+                        <div id="bctc" class="tab-view">
+                            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-x-6 lg:gap-y-14">
+                                <!-- single-card -->
+                                <div class="download-card">
+                                    <div class="flex flex-col gap-2">
+                                        <h2
+                                            class="pl-6 border-l border-solid border-primary-60 text-body-md-medium text-mono-dark-80 truncate-2row min-h-2lh">
+                                            APG – Q1 2025 Financial Statements and Explanation of Profit Difference
+                                        </h2>
+                                        <div class="pl-6 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 18 18" fill="none">
+                                                <path
+                                                    d="M12.75 10.5C13.1642 10.5 13.5 10.1642 13.5 9.75C13.5 9.33579 13.1642 9 12.75 9C12.3358 9 12 9.33579 12 9.75C12 10.1642 12.3358 10.5 12.75 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M12.75 13.5C13.1642 13.5 13.5 13.1642 13.5 12.75C13.5 12.3358 13.1642 12 12.75 12C12.3358 12 12 12.3358 12 12.75C12 13.1642 12.3358 13.5 12.75 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 9.75C9.75 10.1642 9.41421 10.5 9 10.5C8.58579 10.5 8.25 10.1642 8.25 9.75C8.25 9.33579 8.58579 9 9 9C9.41421 9 9.75 9.33579 9.75 9.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 12.75C9.75 13.1642 9.41421 13.5 9 13.5C8.58579 13.5 8.25 13.1642 8.25 12.75C8.25 12.3358 8.58579 12 9 12C9.41421 12 9.75 12.3358 9.75 12.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 10.5C5.66421 10.5 6 10.1642 6 9.75C6 9.33579 5.66421 9 5.25 9C4.83579 9 4.5 9.33579 4.5 9.75C4.5 10.1642 4.83579 10.5 5.25 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 13.5C5.66421 13.5 6 13.1642 6 12.75C6 12.3358 5.66421 12 5.25 12C4.83579 12 4.5 12.3358 4.5 12.75C4.5 13.1642 4.83579 13.5 5.25 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.25 1.3125C5.56066 1.3125 5.8125 1.56434 5.8125 1.875V2.44704C6.309 2.43749 6.856 2.43749 7.45759 2.4375H10.5423C11.1439 2.43749 11.691 2.43749 12.1875 2.44704V1.875C12.1875 1.56434 12.4393 1.3125 12.75 1.3125C13.0607 1.3125 13.3125 1.56434 13.3125 1.875V2.49532C13.5075 2.51018 13.6921 2.52886 13.8668 2.55235C14.7461 2.67057 15.4578 2.91966 16.0191 3.48093C16.5803 4.0422 16.8294 4.75392 16.9476 5.63323C17.0625 6.48764 17.0625 7.57935 17.0625 8.95766V10.5423C17.0625 11.9206 17.0625 13.0124 16.9476 13.8668C16.8294 14.7461 16.5803 15.4578 16.0191 16.0191C15.4578 16.5803 14.7461 16.8294 13.8668 16.9476C13.0124 17.0625 11.9206 17.0625 10.5423 17.0625H7.45769C6.07939 17.0625 4.98764 17.0625 4.13323 16.9476C3.25392 16.8294 2.5422 16.5803 1.98093 16.0191C1.41966 15.4578 1.17057 14.7461 1.05235 13.8668C0.937479 13.0124 0.937488 11.9206 0.9375 10.5423V8.95769C0.937488 7.57937 0.937479 6.48764 1.05235 5.63323C1.17057 4.75392 1.41966 4.0422 1.98093 3.48093C2.5422 2.91966 3.25392 2.67057 4.13323 2.55235C4.30793 2.52886 4.49254 2.51018 4.6875 2.49532V1.875C4.6875 1.56434 4.93934 1.3125 5.25 1.3125ZM4.28314 3.66732C3.52857 3.76877 3.09383 3.95902 2.77643 4.27643C2.45902 4.59383 2.26877 5.02857 2.16732 5.78314C2.15014 5.91093 2.13577 6.04546 2.12376 6.1875H15.8762C15.8642 6.04546 15.8499 5.91093 15.8327 5.78314C15.7312 5.02857 15.541 4.59383 15.2236 4.27643C14.9062 3.95902 14.4714 3.76877 13.7169 3.66732C12.9461 3.56369 11.9301 3.5625 10.5 3.5625H7.5C6.06989 3.5625 5.05389 3.56369 4.28314 3.66732ZM2.0625 9C2.0625 8.35949 2.06274 7.80205 2.07231 7.3125H15.9277C15.9373 7.80205 15.9375 8.35949 15.9375 9V10.5C15.9375 11.9301 15.9363 12.9461 15.8327 13.7169C15.7312 14.4714 15.541 14.9062 15.2236 15.2236C14.9062 15.541 14.4714 15.7312 13.7169 15.8327C12.9461 15.9363 11.9301 15.9375 10.5 15.9375H7.5C6.06989 15.9375 5.05388 15.9363 4.28314 15.8327C3.52857 15.7312 3.09383 15.541 2.77643 15.2236C2.45902 14.9062 2.26877 14.4714 2.16732 13.7169C2.0637 12.9461 2.0625 11.9301 2.0625 10.5V9Z"
+                                                    fill="#9297AF" />
+                                            </svg>
+                                            <p class="text-body-sm-regular text-purple-gray-40">18/04/2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="pl-6 flex flex-col gap-2">
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu pdf
+                                        </a>
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu word
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- single-card -->
+                                <div class="download-card">
+                                    <div class="flex flex-col gap-2">
+                                        <h2
+                                            class="pl-6 border-l border-solid border-primary-60 text-body-md-medium text-mono-dark-80 truncate-2row min-h-2lh">
+                                            APG – Q1 2025 Financial Statements and Explanation of Profit Difference
+                                        </h2>
+                                        <div class="pl-6 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 18 18" fill="none">
+                                                <path
+                                                    d="M12.75 10.5C13.1642 10.5 13.5 10.1642 13.5 9.75C13.5 9.33579 13.1642 9 12.75 9C12.3358 9 12 9.33579 12 9.75C12 10.1642 12.3358 10.5 12.75 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M12.75 13.5C13.1642 13.5 13.5 13.1642 13.5 12.75C13.5 12.3358 13.1642 12 12.75 12C12.3358 12 12 12.3358 12 12.75C12 13.1642 12.3358 13.5 12.75 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 9.75C9.75 10.1642 9.41421 10.5 9 10.5C8.58579 10.5 8.25 10.1642 8.25 9.75C8.25 9.33579 8.58579 9 9 9C9.41421 9 9.75 9.33579 9.75 9.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 12.75C9.75 13.1642 9.41421 13.5 9 13.5C8.58579 13.5 8.25 13.1642 8.25 12.75C8.25 12.3358 8.58579 12 9 12C9.41421 12 9.75 12.3358 9.75 12.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 10.5C5.66421 10.5 6 10.1642 6 9.75C6 9.33579 5.66421 9 5.25 9C4.83579 9 4.5 9.33579 4.5 9.75C4.5 10.1642 4.83579 10.5 5.25 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 13.5C5.66421 13.5 6 13.1642 6 12.75C6 12.3358 5.66421 12 5.25 12C4.83579 12 4.5 12.3358 4.5 12.75C4.5 13.1642 4.83579 13.5 5.25 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.25 1.3125C5.56066 1.3125 5.8125 1.56434 5.8125 1.875V2.44704C6.309 2.43749 6.856 2.43749 7.45759 2.4375H10.5423C11.1439 2.43749 11.691 2.43749 12.1875 2.44704V1.875C12.1875 1.56434 12.4393 1.3125 12.75 1.3125C13.0607 1.3125 13.3125 1.56434 13.3125 1.875V2.49532C13.5075 2.51018 13.6921 2.52886 13.8668 2.55235C14.7461 2.67057 15.4578 2.91966 16.0191 3.48093C16.5803 4.0422 16.8294 4.75392 16.9476 5.63323C17.0625 6.48764 17.0625 7.57935 17.0625 8.95766V10.5423C17.0625 11.9206 17.0625 13.0124 16.9476 13.8668C16.8294 14.7461 16.5803 15.4578 16.0191 16.0191C15.4578 16.5803 14.7461 16.8294 13.8668 16.9476C13.0124 17.0625 11.9206 17.0625 10.5423 17.0625H7.45769C6.07939 17.0625 4.98764 17.0625 4.13323 16.9476C3.25392 16.8294 2.5422 16.5803 1.98093 16.0191C1.41966 15.4578 1.17057 14.7461 1.05235 13.8668C0.937479 13.0124 0.937488 11.9206 0.9375 10.5423V8.95769C0.937488 7.57937 0.937479 6.48764 1.05235 5.63323C1.17057 4.75392 1.41966 4.0422 1.98093 3.48093C2.5422 2.91966 3.25392 2.67057 4.13323 2.55235C4.30793 2.52886 4.49254 2.51018 4.6875 2.49532V1.875C4.6875 1.56434 4.93934 1.3125 5.25 1.3125ZM4.28314 3.66732C3.52857 3.76877 3.09383 3.95902 2.77643 4.27643C2.45902 4.59383 2.26877 5.02857 2.16732 5.78314C2.15014 5.91093 2.13577 6.04546 2.12376 6.1875H15.8762C15.8642 6.04546 15.8499 5.91093 15.8327 5.78314C15.7312 5.02857 15.541 4.59383 15.2236 4.27643C14.9062 3.95902 14.4714 3.76877 13.7169 3.66732C12.9461 3.56369 11.9301 3.5625 10.5 3.5625H7.5C6.06989 3.5625 5.05389 3.56369 4.28314 3.66732ZM2.0625 9C2.0625 8.35949 2.06274 7.80205 2.07231 7.3125H15.9277C15.9373 7.80205 15.9375 8.35949 15.9375 9V10.5C15.9375 11.9301 15.9363 12.9461 15.8327 13.7169C15.7312 14.4714 15.541 14.9062 15.2236 15.2236C14.9062 15.541 14.4714 15.7312 13.7169 15.8327C12.9461 15.9363 11.9301 15.9375 10.5 15.9375H7.5C6.06989 15.9375 5.05388 15.9363 4.28314 15.8327C3.52857 15.7312 3.09383 15.541 2.77643 15.2236C2.45902 14.9062 2.26877 14.4714 2.16732 13.7169C2.0637 12.9461 2.0625 11.9301 2.0625 10.5V9Z"
+                                                    fill="#9297AF" />
+                                            </svg>
+                                            <p class="text-body-sm-regular text-purple-gray-40">18/04/2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="pl-6 flex flex-col gap-2">
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu pdf
+                                        </a>
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu word
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- single-card -->
+                                <div class="download-card">
+                                    <div class="flex flex-col gap-2">
+                                        <h2
+                                            class="pl-6 border-l border-solid border-primary-60 text-body-md-medium text-mono-dark-80 truncate-2row min-h-2lh">
+                                            APG – Q1 2025 Financial Statements and Explanation of Profit Difference
+                                        </h2>
+                                        <div class="pl-6 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 18 18" fill="none">
+                                                <path
+                                                    d="M12.75 10.5C13.1642 10.5 13.5 10.1642 13.5 9.75C13.5 9.33579 13.1642 9 12.75 9C12.3358 9 12 9.33579 12 9.75C12 10.1642 12.3358 10.5 12.75 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M12.75 13.5C13.1642 13.5 13.5 13.1642 13.5 12.75C13.5 12.3358 13.1642 12 12.75 12C12.3358 12 12 12.3358 12 12.75C12 13.1642 12.3358 13.5 12.75 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 9.75C9.75 10.1642 9.41421 10.5 9 10.5C8.58579 10.5 8.25 10.1642 8.25 9.75C8.25 9.33579 8.58579 9 9 9C9.41421 9 9.75 9.33579 9.75 9.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 12.75C9.75 13.1642 9.41421 13.5 9 13.5C8.58579 13.5 8.25 13.1642 8.25 12.75C8.25 12.3358 8.58579 12 9 12C9.41421 12 9.75 12.3358 9.75 12.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 10.5C5.66421 10.5 6 10.1642 6 9.75C6 9.33579 5.66421 9 5.25 9C4.83579 9 4.5 9.33579 4.5 9.75C4.5 10.1642 4.83579 10.5 5.25 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 13.5C5.66421 13.5 6 13.1642 6 12.75C6 12.3358 5.66421 12 5.25 12C4.83579 12 4.5 12.3358 4.5 12.75C4.5 13.1642 4.83579 13.5 5.25 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.25 1.3125C5.56066 1.3125 5.8125 1.56434 5.8125 1.875V2.44704C6.309 2.43749 6.856 2.43749 7.45759 2.4375H10.5423C11.1439 2.43749 11.691 2.43749 12.1875 2.44704V1.875C12.1875 1.56434 12.4393 1.3125 12.75 1.3125C13.0607 1.3125 13.3125 1.56434 13.3125 1.875V2.49532C13.5075 2.51018 13.6921 2.52886 13.8668 2.55235C14.7461 2.67057 15.4578 2.91966 16.0191 3.48093C16.5803 4.0422 16.8294 4.75392 16.9476 5.63323C17.0625 6.48764 17.0625 7.57935 17.0625 8.95766V10.5423C17.0625 11.9206 17.0625 13.0124 16.9476 13.8668C16.8294 14.7461 16.5803 15.4578 16.0191 16.0191C15.4578 16.5803 14.7461 16.8294 13.8668 16.9476C13.0124 17.0625 11.9206 17.0625 10.5423 17.0625H7.45769C6.07939 17.0625 4.98764 17.0625 4.13323 16.9476C3.25392 16.8294 2.5422 16.5803 1.98093 16.0191C1.41966 15.4578 1.17057 14.7461 1.05235 13.8668C0.937479 13.0124 0.937488 11.9206 0.9375 10.5423V8.95769C0.937488 7.57937 0.937479 6.48764 1.05235 5.63323C1.17057 4.75392 1.41966 4.0422 1.98093 3.48093C2.5422 2.91966 3.25392 2.67057 4.13323 2.55235C4.30793 2.52886 4.49254 2.51018 4.6875 2.49532V1.875C4.6875 1.56434 4.93934 1.3125 5.25 1.3125ZM4.28314 3.66732C3.52857 3.76877 3.09383 3.95902 2.77643 4.27643C2.45902 4.59383 2.26877 5.02857 2.16732 5.78314C2.15014 5.91093 2.13577 6.04546 2.12376 6.1875H15.8762C15.8642 6.04546 15.8499 5.91093 15.8327 5.78314C15.7312 5.02857 15.541 4.59383 15.2236 4.27643C14.9062 3.95902 14.4714 3.76877 13.7169 3.66732C12.9461 3.56369 11.9301 3.5625 10.5 3.5625H7.5C6.06989 3.5625 5.05389 3.56369 4.28314 3.66732ZM2.0625 9C2.0625 8.35949 2.06274 7.80205 2.07231 7.3125H15.9277C15.9373 7.80205 15.9375 8.35949 15.9375 9V10.5C15.9375 11.9301 15.9363 12.9461 15.8327 13.7169C15.7312 14.4714 15.541 14.9062 15.2236 15.2236C14.9062 15.541 14.4714 15.7312 13.7169 15.8327C12.9461 15.9363 11.9301 15.9375 10.5 15.9375H7.5C6.06989 15.9375 5.05388 15.9363 4.28314 15.8327C3.52857 15.7312 3.09383 15.541 2.77643 15.2236C2.45902 14.9062 2.26877 14.4714 2.16732 13.7169C2.0637 12.9461 2.0625 11.9301 2.0625 10.5V9Z"
+                                                    fill="#9297AF" />
+                                            </svg>
+                                            <p class="text-body-sm-regular text-purple-gray-40">18/04/2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="pl-6 flex flex-col gap-2">
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu pdf
+                                        </a>
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu word
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- single-card -->
+                                <div class="download-card">
+                                    <div class="flex flex-col gap-2">
+                                        <h2
+                                            class="pl-6 border-l border-solid border-primary-60 text-body-md-medium text-mono-dark-80 truncate-2row min-h-2lh">
+                                            APG – Q1 2025 Financial Statements and Explanation of Profit Difference
+                                        </h2>
+                                        <div class="pl-6 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 18 18" fill="none">
+                                                <path
+                                                    d="M12.75 10.5C13.1642 10.5 13.5 10.1642 13.5 9.75C13.5 9.33579 13.1642 9 12.75 9C12.3358 9 12 9.33579 12 9.75C12 10.1642 12.3358 10.5 12.75 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M12.75 13.5C13.1642 13.5 13.5 13.1642 13.5 12.75C13.5 12.3358 13.1642 12 12.75 12C12.3358 12 12 12.3358 12 12.75C12 13.1642 12.3358 13.5 12.75 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 9.75C9.75 10.1642 9.41421 10.5 9 10.5C8.58579 10.5 8.25 10.1642 8.25 9.75C8.25 9.33579 8.58579 9 9 9C9.41421 9 9.75 9.33579 9.75 9.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 12.75C9.75 13.1642 9.41421 13.5 9 13.5C8.58579 13.5 8.25 13.1642 8.25 12.75C8.25 12.3358 8.58579 12 9 12C9.41421 12 9.75 12.3358 9.75 12.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 10.5C5.66421 10.5 6 10.1642 6 9.75C6 9.33579 5.66421 9 5.25 9C4.83579 9 4.5 9.33579 4.5 9.75C4.5 10.1642 4.83579 10.5 5.25 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 13.5C5.66421 13.5 6 13.1642 6 12.75C6 12.3358 5.66421 12 5.25 12C4.83579 12 4.5 12.3358 4.5 12.75C4.5 13.1642 4.83579 13.5 5.25 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.25 1.3125C5.56066 1.3125 5.8125 1.56434 5.8125 1.875V2.44704C6.309 2.43749 6.856 2.43749 7.45759 2.4375H10.5423C11.1439 2.43749 11.691 2.43749 12.1875 2.44704V1.875C12.1875 1.56434 12.4393 1.3125 12.75 1.3125C13.0607 1.3125 13.3125 1.56434 13.3125 1.875V2.49532C13.5075 2.51018 13.6921 2.52886 13.8668 2.55235C14.7461 2.67057 15.4578 2.91966 16.0191 3.48093C16.5803 4.0422 16.8294 4.75392 16.9476 5.63323C17.0625 6.48764 17.0625 7.57935 17.0625 8.95766V10.5423C17.0625 11.9206 17.0625 13.0124 16.9476 13.8668C16.8294 14.7461 16.5803 15.4578 16.0191 16.0191C15.4578 16.5803 14.7461 16.8294 13.8668 16.9476C13.0124 17.0625 11.9206 17.0625 10.5423 17.0625H7.45769C6.07939 17.0625 4.98764 17.0625 4.13323 16.9476C3.25392 16.8294 2.5422 16.5803 1.98093 16.0191C1.41966 15.4578 1.17057 14.7461 1.05235 13.8668C0.937479 13.0124 0.937488 11.9206 0.9375 10.5423V8.95769C0.937488 7.57937 0.937479 6.48764 1.05235 5.63323C1.17057 4.75392 1.41966 4.0422 1.98093 3.48093C2.5422 2.91966 3.25392 2.67057 4.13323 2.55235C4.30793 2.52886 4.49254 2.51018 4.6875 2.49532V1.875C4.6875 1.56434 4.93934 1.3125 5.25 1.3125ZM4.28314 3.66732C3.52857 3.76877 3.09383 3.95902 2.77643 4.27643C2.45902 4.59383 2.26877 5.02857 2.16732 5.78314C2.15014 5.91093 2.13577 6.04546 2.12376 6.1875H15.8762C15.8642 6.04546 15.8499 5.91093 15.8327 5.78314C15.7312 5.02857 15.541 4.59383 15.2236 4.27643C14.9062 3.95902 14.4714 3.76877 13.7169 3.66732C12.9461 3.56369 11.9301 3.5625 10.5 3.5625H7.5C6.06989 3.5625 5.05389 3.56369 4.28314 3.66732ZM2.0625 9C2.0625 8.35949 2.06274 7.80205 2.07231 7.3125H15.9277C15.9373 7.80205 15.9375 8.35949 15.9375 9V10.5C15.9375 11.9301 15.9363 12.9461 15.8327 13.7169C15.7312 14.4714 15.541 14.9062 15.2236 15.2236C14.9062 15.541 14.4714 15.7312 13.7169 15.8327C12.9461 15.9363 11.9301 15.9375 10.5 15.9375H7.5C6.06989 15.9375 5.05388 15.9363 4.28314 15.8327C3.52857 15.7312 3.09383 15.541 2.77643 15.2236C2.45902 14.9062 2.26877 14.4714 2.16732 13.7169C2.0637 12.9461 2.0625 11.9301 2.0625 10.5V9Z"
+                                                    fill="#9297AF" />
+                                            </svg>
+                                            <p class="text-body-sm-regular text-purple-gray-40">18/04/2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="pl-6 flex flex-col gap-2">
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu pdf
+                                        </a>
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu word
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- single-card -->
+                                <div class="download-card">
+                                    <div class="flex flex-col gap-2">
+                                        <h2
+                                            class="pl-6 border-l border-solid border-primary-60 text-body-md-medium text-mono-dark-80 truncate-2row min-h-2lh">
+                                            APG – Q1 2025 Financial Statements and Explanation of Profit Difference
+                                        </h2>
+                                        <div class="pl-6 flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 18 18" fill="none">
+                                                <path
+                                                    d="M12.75 10.5C13.1642 10.5 13.5 10.1642 13.5 9.75C13.5 9.33579 13.1642 9 12.75 9C12.3358 9 12 9.33579 12 9.75C12 10.1642 12.3358 10.5 12.75 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M12.75 13.5C13.1642 13.5 13.5 13.1642 13.5 12.75C13.5 12.3358 13.1642 12 12.75 12C12.3358 12 12 12.3358 12 12.75C12 13.1642 12.3358 13.5 12.75 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 9.75C9.75 10.1642 9.41421 10.5 9 10.5C8.58579 10.5 8.25 10.1642 8.25 9.75C8.25 9.33579 8.58579 9 9 9C9.41421 9 9.75 9.33579 9.75 9.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M9.75 12.75C9.75 13.1642 9.41421 13.5 9 13.5C8.58579 13.5 8.25 13.1642 8.25 12.75C8.25 12.3358 8.58579 12 9 12C9.41421 12 9.75 12.3358 9.75 12.75Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 10.5C5.66421 10.5 6 10.1642 6 9.75C6 9.33579 5.66421 9 5.25 9C4.83579 9 4.5 9.33579 4.5 9.75C4.5 10.1642 4.83579 10.5 5.25 10.5Z"
+                                                    fill="#9297AF" />
+                                                <path
+                                                    d="M5.25 13.5C5.66421 13.5 6 13.1642 6 12.75C6 12.3358 5.66421 12 5.25 12C4.83579 12 4.5 12.3358 4.5 12.75C4.5 13.1642 4.83579 13.5 5.25 13.5Z"
+                                                    fill="#9297AF" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5.25 1.3125C5.56066 1.3125 5.8125 1.56434 5.8125 1.875V2.44704C6.309 2.43749 6.856 2.43749 7.45759 2.4375H10.5423C11.1439 2.43749 11.691 2.43749 12.1875 2.44704V1.875C12.1875 1.56434 12.4393 1.3125 12.75 1.3125C13.0607 1.3125 13.3125 1.56434 13.3125 1.875V2.49532C13.5075 2.51018 13.6921 2.52886 13.8668 2.55235C14.7461 2.67057 15.4578 2.91966 16.0191 3.48093C16.5803 4.0422 16.8294 4.75392 16.9476 5.63323C17.0625 6.48764 17.0625 7.57935 17.0625 8.95766V10.5423C17.0625 11.9206 17.0625 13.0124 16.9476 13.8668C16.8294 14.7461 16.5803 15.4578 16.0191 16.0191C15.4578 16.5803 14.7461 16.8294 13.8668 16.9476C13.0124 17.0625 11.9206 17.0625 10.5423 17.0625H7.45769C6.07939 17.0625 4.98764 17.0625 4.13323 16.9476C3.25392 16.8294 2.5422 16.5803 1.98093 16.0191C1.41966 15.4578 1.17057 14.7461 1.05235 13.8668C0.937479 13.0124 0.937488 11.9206 0.9375 10.5423V8.95769C0.937488 7.57937 0.937479 6.48764 1.05235 5.63323C1.17057 4.75392 1.41966 4.0422 1.98093 3.48093C2.5422 2.91966 3.25392 2.67057 4.13323 2.55235C4.30793 2.52886 4.49254 2.51018 4.6875 2.49532V1.875C4.6875 1.56434 4.93934 1.3125 5.25 1.3125ZM4.28314 3.66732C3.52857 3.76877 3.09383 3.95902 2.77643 4.27643C2.45902 4.59383 2.26877 5.02857 2.16732 5.78314C2.15014 5.91093 2.13577 6.04546 2.12376 6.1875H15.8762C15.8642 6.04546 15.8499 5.91093 15.8327 5.78314C15.7312 5.02857 15.541 4.59383 15.2236 4.27643C14.9062 3.95902 14.4714 3.76877 13.7169 3.66732C12.9461 3.56369 11.9301 3.5625 10.5 3.5625H7.5C6.06989 3.5625 5.05389 3.56369 4.28314 3.66732ZM2.0625 9C2.0625 8.35949 2.06274 7.80205 2.07231 7.3125H15.9277C15.9373 7.80205 15.9375 8.35949 15.9375 9V10.5C15.9375 11.9301 15.9363 12.9461 15.8327 13.7169C15.7312 14.4714 15.541 14.9062 15.2236 15.2236C14.9062 15.541 14.4714 15.7312 13.7169 15.8327C12.9461 15.9363 11.9301 15.9375 10.5 15.9375H7.5C6.06989 15.9375 5.05388 15.9363 4.28314 15.8327C3.52857 15.7312 3.09383 15.541 2.77643 15.2236C2.45902 14.9062 2.26877 14.4714 2.16732 13.7169C2.0637 12.9461 2.0625 11.9301 2.0625 10.5V9Z"
+                                                    fill="#9297AF" />
+                                            </svg>
+                                            <p class="text-body-sm-regular text-purple-gray-40">18/04/2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="pl-6 flex flex-col gap-2">
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu pdf
+                                        </a>
+                                        <a href="#" class="download-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 20 20" fill="none">
+                                                <path
+                                                    d="M10.4613 13.7551C10.3429 13.8846 10.1755 13.9583 10 13.9583C9.82453 13.9583 9.65714 13.8846 9.53873 13.7551L6.2054 10.1092C5.97248 9.85448 5.99019 9.45915 6.24494 9.22623C6.49969 8.99332 6.89502 9.01102 7.12794 9.26577L9.375 11.7235V2.5C9.375 2.15482 9.65482 1.875 10 1.875C10.3452 1.875 10.625 2.15482 10.625 2.5V11.7235L12.8721 9.26577C13.105 9.01102 13.5003 8.99332 13.7551 9.22623C14.0098 9.45915 14.0275 9.85448 13.7946 10.1092L10.4613 13.7551Z"
+                                                    fill="#5466F3" />
+                                                <path
+                                                    d="M3.125 12.5C3.125 12.1548 2.84518 11.875 2.5 11.875C2.15482 11.875 1.875 12.1548 1.875 12.5V12.5457C1.87498 13.6854 1.87497 14.604 1.9721 15.3265C2.07295 16.0765 2.2887 16.7081 2.79029 17.2097C3.29189 17.7113 3.92345 17.927 4.67354 18.0279C5.39602 18.125 6.31462 18.125 7.45428 18.125H12.5457C13.6854 18.125 14.604 18.125 15.3265 18.0279C16.0766 17.927 16.7081 17.7113 17.2097 17.2097C17.7113 16.7081 17.9271 16.0765 18.0279 15.3265C18.125 14.604 18.125 13.6854 18.125 12.5457V12.5C18.125 12.1548 17.8452 11.875 17.5 11.875C17.1548 11.875 16.875 12.1548 16.875 12.5C16.875 13.6962 16.8737 14.5304 16.789 15.1599C16.7068 15.7714 16.5565 16.0952 16.3258 16.3258C16.0952 16.5565 15.7714 16.7068 15.1599 16.789C14.5304 16.8737 13.6962 16.875 12.5 16.875H7.5C6.30382 16.875 5.46956 16.8737 4.8401 16.789C4.22862 16.7068 3.90481 16.5565 3.67418 16.3258C3.44354 16.0952 3.29317 15.7714 3.21096 15.1599C3.12633 14.5304 3.125 13.6962 3.125 12.5Z"
+                                                    fill="#5466F3" />
+                                            </svg>
+                                            Download tài liệu word
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- pagination -->
+                                <div class="col-span-1 md:col-span-2 lg:col-span-3 mx-auto">
+                                    <div class="pagination">
+                                        <a class="prev page-numbers" href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path d="M14 7L9 12L14 17" stroke="#453F3F" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <span aria-current="page" class="page-numbers current">1</span>
+                                        <a class="page-numbers" href="#">2</a>
+                                        <a class="page-numbers" href="#">3</a>
+                                        <a class="next page-numbers" href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path d="M10 7L15 12L10 17" stroke="#453F3F" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bctc1" class="tab-view">
+                            bctc 1
+                        </div>
+                        <div id="bctc2" class="tab-view">
+                            bctc 2
+                        </div>
+                        <div id="bctc3" class="tab-view">
+                            bctc 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------- section 3 -------------------- -->
+
+        <!-- -------------------- section 4 -------------------- -->
+
+        <!-- -------------------- section 5 -------------------- -->
+
+        <!-- -------------------- section 6 -------------------- -->
+
+        <!-- -------------------- section 7 -------------------- -->
+
+        <!-- -------------------- section 7 -------------------- -->
+
+        <!-- -------------------- section 8 -------------------- -->
+
+
+
+    </main>
+    <footer class="footer bg-white shadow-footer">
+        <div class="container pt-12 pb-14">
+            <!-- more info -->
+            <div class="flex flex-col md:flex-row items-center gap-10 justify-between">
+                <div class="max-w-[324px] flex items-center gap-5">
+                    <a href="#" class="">
+                        <figure class="max-w-[115px]"><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                    </a>
+                    <hr class="divider-d6 vertical min-h-12">
+                    <p class="text-body-md-medium text-gray-70">
+                        Công ty chứng khoán <br>
+                        Securities Company
+                    </p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <p class="text-body-md-medium text-purple-gray-90">Kết nối với chúng tôi</p>
+                    <div class="social-list">
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <g clip-path="url(#clip0_2366_3195)">
+                                    <path
+                                        d="M23.5221 6.18546C23.3864 5.67487 23.119 5.20888 22.7466 4.83411C22.3743 4.45935 21.91 4.18896 21.4003 4.05C19.5239 3.54546 12.0239 3.54546 12.0239 3.54546C12.0239 3.54546 4.52393 3.54546 2.64756 4.05C2.13786 4.18896 1.67358 4.45935 1.30121 4.83411C0.928842 5.20888 0.661431 5.67487 0.525744 6.18546C0.0239258 8.07 0.0239258 12 0.0239258 12C0.0239258 12 0.0239258 15.93 0.525744 17.8145C0.661431 18.3251 0.928842 18.7911 1.30121 19.1659C1.67358 19.5407 2.13786 19.811 2.64756 19.95C4.52393 20.4545 12.0239 20.4545 12.0239 20.4545C12.0239 20.4545 19.5239 20.4545 21.4003 19.95C21.91 19.811 22.3743 19.5407 22.7466 19.1659C23.119 18.7911 23.3864 18.3251 23.5221 17.8145C24.0239 15.93 24.0239 12 24.0239 12C24.0239 12 24.0239 8.07 23.5221 6.18546Z"
+                                        fill="url(#paint0_linear_2366_3195)" />
+                                    <path d="M9.56934 15.5687V8.4314L15.8421 12L9.56934 15.5687Z" fill="#FEFEFE" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3195" x1="12.0239" y1="-1.31757" x2="12.0239"
+                                        y2="27.6202" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2366_3195">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M17.585 13.5L18.2515 9.15656H14.0839V6.33797C14.0839 5.14969 14.6661 3.99141 16.5326 3.99141H18.4273V0.293438C18.4273 0.293438 16.7079 0 15.064 0C11.6318 0 9.3884 2.08031 9.3884 5.84625V9.15656H5.57324V13.5H9.3884V24H14.0839V13.5H17.585Z"
+                                    fill="url(#paint0_linear_2366_3196)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3196" x1="12.0003" y1="-6.90236" x2="12.0003"
+                                        y2="34.1707" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="12" viewBox="0 0 33 12"
+                                fill="none">
+                                <path
+                                    d="M17.1737 3.53645V2.89527H19.0259V11.9031H17.9671C17.7575 11.9035 17.5564 11.8178 17.4077 11.6647C17.259 11.5117 17.1748 11.3038 17.1737 11.0867C16.4008 11.6734 15.4672 11.9903 14.509 11.9886C13.3119 11.9886 12.1638 11.496 11.317 10.6191C10.4703 9.74221 9.99423 8.55278 9.9935 7.31228C9.99423 6.07178 10.4703 4.88234 11.317 4.00544C12.1638 3.12855 13.3119 2.63595 14.509 2.63595C15.4667 2.63453 16.4012 2.95002 17.1737 3.53645ZM9.51363 0V0.292092C9.51363 0.836381 9.4435 1.28093 9.10112 1.80242L9.05988 1.85087C8.94592 1.98352 8.83497 2.11892 8.72713 2.25695L2.783 9.98813H9.51363V11.0824C9.51363 11.1903 9.49309 11.2971 9.45321 11.3968C9.41332 11.4965 9.35486 11.587 9.28117 11.6632C9.20748 11.7395 9.12001 11.7999 9.02376 11.841C8.92751 11.8822 8.82437 11.9033 8.72025 11.9031H0V11.3873C0 10.7561 0.15125 10.474 0.34375 10.1805L6.67975 2.05177H0.264V0H9.51363ZM21.2712 11.9031C21.0962 11.9031 20.9283 11.8311 20.8046 11.7028C20.6808 11.5745 20.6112 11.4006 20.6112 11.2192V0H22.5926V11.9031H21.2712ZM28.4529 2.57896C29.0498 2.57877 29.641 2.70043 30.1926 2.93698C30.7441 3.17353 31.2454 3.52035 31.6676 3.95763C32.0898 4.39491 32.4248 4.91409 32.6535 5.48553C32.8821 6.05696 32.9998 6.66946 33 7.28805C33.0002 7.90665 32.8828 8.51922 32.6545 9.0908C32.4262 9.66238 32.0915 10.1818 31.6696 10.6193C31.2476 11.0569 30.7465 11.404 30.1951 11.6409C29.6437 11.8778 29.0526 11.9998 28.4556 12C27.25 12.0004 26.0936 11.5045 25.2409 10.6213C24.3881 9.7382 23.9089 8.54021 23.9085 7.2909C23.9081 6.0416 24.3867 4.84331 25.2389 3.95965C26.0912 3.07599 27.2473 2.57934 28.4529 2.57896ZM14.5104 10.0636C14.8642 10.072 15.2161 10.007 15.5454 9.87242C15.8746 9.73786 16.1746 9.53648 16.4277 9.2801C16.6809 9.02372 16.882 8.71751 17.0193 8.37946C17.1566 8.04141 17.2273 7.67834 17.2273 7.31157C17.2273 6.94479 17.1566 6.58172 17.0193 6.24367C16.882 5.90562 16.6809 5.59941 16.4277 5.34303C16.1746 5.08665 15.8746 4.88527 15.5454 4.75071C15.2161 4.61616 14.8642 4.55114 14.5104 4.55949C13.8165 4.57585 13.1563 4.87298 12.6711 5.38732C12.186 5.90165 11.9143 6.59233 11.9143 7.31157C11.9143 8.03081 12.186 8.72148 12.6711 9.23581C13.1563 9.75014 13.8165 10.0473 14.5104 10.0636ZM28.4529 10.0594C29.1622 10.0594 29.8424 9.76739 30.3439 9.24767C30.8455 8.72795 31.1273 8.02305 31.1273 7.28805C31.1273 6.55306 30.8455 5.84816 30.3439 5.32844C29.8424 4.80872 29.1622 4.51674 28.4529 4.51674C27.7436 4.51674 27.0633 4.80872 26.5618 5.32844C26.0603 5.84816 25.7785 6.55306 25.7785 7.28805C25.7785 8.02305 26.0603 8.72795 26.5618 9.24767C27.0633 9.76739 27.7436 10.0594 28.4529 10.0594Z"
+                                    fill="url(#paint0_linear_2366_3198)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3198" x1="16.5" y1="-3.45118" x2="16.5"
+                                        y2="17.0853" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M2.96229 20.0003C2.4029 20.0003 1.93621 19.8133 1.56221 19.4393C1.18821 19.0653 1.00081 18.5982 1 18.038V4.96256C1 4.40318 1.1874 3.93649 1.56221 3.56249C1.93702 3.18849 2.40331 3.00108 2.96107 3.00027H20.8961C21.4546 3.00027 21.9209 3.18768 22.2949 3.56249C22.6689 3.9373 22.8563 4.40399 22.8571 4.96256V18.0392C22.8571 18.5978 22.6697 19.0645 22.2949 19.4393C21.9201 19.8141 21.4538 20.0011 20.8961 20.0003H2.96229ZM11.9286 11.4517C12.0298 11.4517 12.1245 11.4363 12.2127 11.4056C12.3001 11.3748 12.3868 11.3372 12.4726 11.2926L21.2506 5.54542C21.3656 5.4758 21.4405 5.38068 21.4753 5.26006C21.5101 5.13944 21.5036 5.01923 21.4559 4.89942C21.4251 4.74318 21.3231 4.62985 21.1499 4.55942C20.9774 4.4898 20.8103 4.50396 20.6484 4.60192L11.9286 10.286L3.21 4.60313C3.04809 4.50437 2.88457 4.48332 2.71943 4.53999C2.55429 4.59666 2.44824 4.70837 2.40129 4.87513C2.35433 4.9998 2.34826 5.12649 2.38307 5.2552C2.41788 5.38392 2.49236 5.48106 2.6065 5.54663L11.3846 11.2926C11.4704 11.3372 11.557 11.3748 11.6444 11.4056C11.7327 11.4355 11.8274 11.4505 11.9286 11.4505"
+                                    fill="url(#paint0_linear_2366_3199)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3199" x1="11.9286" y1="-1.8889" x2="11.9286"
+                                        y2="27.2045" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-8 divider-d6">
+            <div class="mt-8 lg:mt-14 grid grid-cols-12 gap-6">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                    <div class="lg:max-w-[256px] flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Thông tin Website</h2>
+                        <div class="flex flex-col gap-3">
+                            <a href="#" class="link-text">Điều khoản sử dụng</a>
+                            <a href="#" class="link-text">Về APG</a>
+                            <a href="#" class="link-text">Liên hệ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-5">
+                    <div class="lg:max-w-[385px] flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Trụ sở chính</h2>
+                        <div class="">
+                            <a href="#" class="link-text">
+                                Tầng 5, Tòa nhà Grand Building, 32 Hòa Mã, Hai Bà Trưng, Hà Nội.
+                            </a>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Phone:
+                                <a href="#" class="inline-block link-text">
+                                    (84-24) 3941 0277
+                                </a>
+                            </p>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Fax:
+                                <a href="#" class="inline-block link-text">
+                                    (84-24) 3941 0323
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-3">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Chi nhánh</h2>
+                        <div class="">
+                            <a href="#" class="link-text">
+                                Khu dịch vụ, tầng 1, khối B, chung cư Petro Vietnam Landmark, 65 Mai Chí Thọ, phường An
+                                Phú, TP. Thủ Đức, TP. Hồ Chí
+                                Minh.
+                            </a>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Phone:
+                                <a href="#" class="inline-block link-text">
+                                    (84-28) 9999 0868
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-14 divider-d6">
+
+            <div class="mt-8 flex flex-col md:flex-row md:items-center gap-10 justify-between">
+                <div class="grid grid-cols-2 gap-x-3 md:gap-x-10 gap-y-3">
+                    <div class="col-span-2">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Hotline</h2>
+                    </div>
+                    <a href="#" class="link-secondary text-sub-heading">
+                        (84-24) 3941 0277
+                    </a>
+                    <a href="#" class="link-secondary text-sub-heading">
+                        dvkh@apsi.vn
+                    </a>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-body-md-medium text-purple-gray-90">Tải ứng dụng APG Trading</h2>
+                    <div class="flex items-center gap-4">
+                        <a href="#" class="">
+                            <figure><img src="/assets/image/apple-download.svg" alt="download"></figure>
+                        </a>
+                        <a href="#" class="">
+                            <figure><img src="/assets/image/google-download.svg" alt="download"></figure>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="border-t border-solid border-purple-gray-20 py-[26px]">
+            <div class="container flex items-center justify-center">
+                <p class="text-body-md-regular text-purple-gray-60 text-center">
+                    © 2025. Bản quyền thuộc về <a href="#" class="inline-block hover:text-primary">
+                        Công Ty Cổ phần Chứng Khoán APG
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- header script -->
+    <script defer src="/assets/js/header-scroll.js"></script>
+    <script defer src="/assets/js/sub-menu.js"></script>
+    <script defer src="/assets/js/header.js"></script>
+    <script defer src="/assets/js/accordion.js"></script>
+
+    <script defer src="/assets/js/tab-switch.js"></script>
+
+    <!-- swiper script -->
+    <script defer>
+        const swiper = new Swiper('#home-swiper', {
+            slidesPerView: 1,
+            navigation: true,
+            loop: true,
+            // autoplay: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        const swiper3 = new Swiper('#review-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 50000,
+                disableOnInteraction: false,
+            },
+            speed: 1000,
+            breakpoints: {
+                768: {
+                    slidesPerView: 1.5,
+                },
+                992: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 2.2,
+                },
+                1280: {
+                    slidesPerView: 2.2,
+                },
+                1440: {
+                    slidesPerView: 2.2,
+                },
+            },
+
+            pagination: {
+                el: '.review-swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

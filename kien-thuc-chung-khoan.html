@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- taildwind css import -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/assets/js/tailwind.config.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/assets/style/main.css" />
+
+    <!-- font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- fancy box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- header pc -->
+            <div class="header-pc header-home hidden lg:block fixed top-0 w-full z-[5]">
+                <div class="container">
+                    <!-- first-header -->
+                    <div class="bg-purple-gray-10 px-6 h-10 flex items-center justify-between">
+                        <div class="">
+                            <form action="" class="relative pl-6">
+                                <label class="input-label">
+                                    <input type="text" class="input-field transparent" placeholder="Tìm kiếm">
+                                </label>
+                                <button class="absolute left-0 top-1/2 -translate-y-1/2">
+                                    <figure><img src="/assets/image/icon/mag-glass.svg" alt=""></figure>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <!-- hotline -->
+                            <div class="flex items-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <path
+                                        d="M12.372 15.5C12.2163 15.4996 12.061 15.4832 11.9089 15.4511C9.01316 14.8768 6.34541 13.5303 4.21268 11.5665C2.12547 9.59838 0.677879 7.09255 0.0450497 4.35217C-0.0295688 4.01064 -0.0112545 3.65645 0.0982308 3.32366C0.207716 2.99088 0.404688 2.69071 0.670195 2.45203L2.52248 0.742794C2.61708 0.657015 2.7295 0.591328 2.85238 0.550019C2.97525 0.50871 3.10584 0.492707 3.2356 0.503056C3.37016 0.516514 3.5 0.558068 3.616 0.624798C3.73201 0.691527 3.83135 0.781811 3.90706 0.8893L6.22241 4.17015C6.30924 4.29745 6.35115 4.44811 6.34198 4.59996C6.33281 4.75181 6.27304 4.89683 6.17147 5.01367L5.00916 6.34555C5.47207 7.32778 6.12764 8.21553 6.94017 8.96046C7.74744 9.73242 8.70161 10.3488 9.75101 10.7763L11.1912 9.67967C11.3121 9.58803 11.4593 9.53384 11.6131 9.52433C11.767 9.51481 11.9202 9.55041 12.0525 9.6264L15.5486 11.7929C15.6686 11.8616 15.7708 11.9554 15.8476 12.0673C15.9244 12.1793 15.9738 12.3064 15.9921 12.4392C16.0103 12.572 15.997 12.7071 15.9531 12.8343C15.9092 12.9615 15.8358 13.0775 15.7385 13.1736L13.9325 14.8873C13.7274 15.083 13.4839 15.2379 13.2161 15.343C12.9483 15.4482 12.6614 15.5015 12.372 15.5ZM3.16151 1.38209L1.30923 3.09133C1.15987 3.22476 1.0493 3.39317 0.98841 3.57999C0.927516 3.76681 0.91839 3.96561 0.961929 4.15683C1.55036 6.7283 2.90299 9.08135 4.85635 10.9316C6.86339 12.7792 9.37389 14.0457 12.0988 14.5854C12.305 14.6268 12.5188 14.6184 12.7208 14.561C12.9228 14.5037 13.1069 14.3992 13.2564 14.2569L15.0624 12.5432L11.6866 10.4522L10.14 11.6331C10.0808 11.678 10.011 11.7084 9.93675 11.7215C9.86249 11.7347 9.78601 11.7302 9.71396 11.7086C8.42973 11.2549 7.26592 10.5348 6.30576 9.59976C5.31264 8.71061 4.54175 7.61794 4.05061 6.40326C4.02983 6.32973 4.02914 6.2523 4.0486 6.17844C4.06807 6.10457 4.10703 6.03675 4.16175 5.9815L5.41204 4.54752L3.16151 1.38209Z"
+                                        fill="#2B2E3A" />
+                                </svg>
+                                <p class="text-body-sm-regular text-purple-gray-70">
+                                    Hotline:
+                                    <a href="#" class="inline-block link-text">
+                                        0918 410 277
+                                    </a>
+                                </p>
+                            </div>
+                            <hr class="min-h-6 divider-d6 vertical">
+                            <a href="#" class="link-text">
+                                Liên hệ
+                            </a>
+                            <hr class="min-h-6 divider-d6 vertical">
+
+                            <!-- language select -->
+                            <!-- sau thay plugin là có cờ -->
+                            <div class="flex items-center gap-2">
+                                <figure class="min-w-5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path
+                                            d="M19.6551 17.5517H0.344843C0.154414 17.5517 0 17.3973 0 17.2069V4.79309C0 4.60266 0.154414 4.44824 0.344843 4.44824H19.6552C19.8456 4.44824 20 4.60266 20 4.79309V17.2069C20 17.3973 19.8455 17.5517 19.6551 17.5517Z"
+                                            fill="#FF4B55" />
+                                        <path
+                                            d="M10.1611 7.09252L11.0833 9.85775L13.9982 9.88033C14.1611 9.88158 14.2287 10.0896 14.0976 10.1864L11.7527 11.918L12.632 14.6972C12.6812 14.8526 12.5042 14.9812 12.3716 14.8864L10.0002 13.1913L7.62869 14.8864C7.49611 14.9811 7.31916 14.8526 7.3683 14.6972L8.24756 11.918L5.90268 10.1864C5.77155 10.0896 5.83916 9.88158 6.00213 9.88033L8.91701 9.85775L9.83923 7.09252C9.89084 6.93791 10.1095 6.93791 10.1611 7.09252Z"
+                                            fill="#FFE15A" />
+                                    </svg>
+                                </figure>
+                                <div class="input-label">
+                                    <select class="input-field language">
+                                        <option value="">VI</option>
+                                        <option value="">EN</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second-header -->
+                    <div class="flex items-center justify-between py-[18px] px-6 gap-6 2xl:gap-10">
+                        <a href="/">
+                            <figure class="lg:max-w-20"><img src="/assets/image/header-logo.svg" alt="logo"></figure>
+                        </a>
+                        <nav class="flex-1">
+                            <ul class="flex items-center justify-between gap-4 2xl:gap-8">
+                                <li class="">
+                                    <a href="#" class="link-nav">Giới thiệu</a>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Dịch vụ chứng khoán
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Quan hệ nhà đầu tư
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Trung tâm hỗ trợ
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Tin tức
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="relative sub-button">
+                                    <a href="#" class="link-nav">Phát triển cùng APG
+                                        <figure class="w-4 h-4"><img src="/assets/image/icon/arrow-down-16.svg"
+                                                alt="icon">
+                                        </figure>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                        <li class="sub-item">
+                                            <a href="#" class="nav-link">sub 1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="button-wrap">
+                            <a href="#" class="button-inner">Giao dịch ngay</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- header-mobile -->
+            <div class="w-full lg:hidden header-mobile fixed top-0 z-[5] ">
+                <div class="container flex justify-between py-5">
+                    <a href="/">
+                        <div class="logo">
+                            <figure class="max-w-[60px]">
+                                <img src="/assets/image/header-logo.svg" alt="logo">
+                            </figure>
+                        </div>
+                    </a>
+                    <button class="breadcrumb-button">
+                        <figure>
+                            <img src="/assets/image/icon/3bar.svg" alt="">
+                        </figure>
+                    </button>
+                </div>
+                <div
+                    class="breadcrumb-header hidden fixed w-[70vw] max-w-[350px] h-[100vh] top-0 right-0 z-[5] transform transition-transform duration-300 ease-in-out translate-x-full">
+                    <div class="shadow-1 flex flex-col gap-10 bg-white w-full h-full p-6">
+                        <div class="flex items-center justify-between">
+                            <a href="/">
+                                <div class="logo">
+                                    <figure class="max-w-[60px]">
+                                        <img src="/assets/image/header-logo.svg" alt="logo">
+                                    </figure>
+                                </div>
+                            </a>
+                            <button class="breadcrumb-close">
+                                <figure class="w-8 h-8">
+                                    <img src="/assets/image/icon/close.svg" alt="">
+                                </figure>
+                            </button>
+                        </div>
+
+                        <div class="breadcrumb-container custom-scrollbar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- holder header -->
+            <!-- <div class="h-[95px] lg:h-[106px] 2xl:h-[136px]"></div> -->
+        </div>
+    </header>
+    <main>
+        <!-- -------------------- section 1 -------------------- -->
+        <div class="h-[65px] lg:h-[120px]"></div>
+        <section class="pt-10">
+            <div class="container">
+                <div class="flex flex-col gap-6">
+                    <nav class="breadcrumb text-body-lg-regular text-purple-gray-80" aria-label="breadcrumb">
+                        <ol class="flex flex-wrap gap-3 items-center" itemscope=""
+                            itemtype="https://schema.org/BreadcrumbList">
+
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                <a href="#" class="hover:text-secondary" itemprop="item">
+                                    <span itemprop="name">Trang chủ</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.51192 4.43057C8.82641 4.161 9.29989 4.19743 9.56946 4.51192L15.5695 11.5119C15.8102 11.7928 15.8102 12.2072 15.5695 12.4881L9.56946 19.4881C9.29989 19.8026 8.82641 19.839 8.51192 19.5695C8.19743 19.2999 8.161 18.8264 8.43057 18.5119L14.0122 12L8.43057 5.48811C8.161 5.17361 8.19743 4.70014 8.51192 4.43057Z"
+                                    fill="#2B2E3A" />
+                            </svg>
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                                <a href="#" class="hover:text-secondary" itemprop="item">
+                                    <span itemprop="name">Trung tâm hỗ trợ</span>
+                                </a>
+                                <meta itemprop="position" content="1">
+                            </li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.51192 4.43057C8.82641 4.161 9.29989 4.19743 9.56946 4.51192L15.5695 11.5119C15.8102 11.7928 15.8102 12.2072 15.5695 12.4881L9.56946 19.4881C9.29989 19.8026 8.82641 19.839 8.51192 19.5695C8.19743 19.2999 8.161 18.8264 8.43057 18.5119L14.0122 12L8.43057 5.48811C8.161 5.17361 8.19743 4.70014 8.51192 4.43057Z"
+                                    fill="#2B2E3A" />
+                            </svg>
+                            <li itemprop="itemListElement font-semibold" itemscope=""
+                                itemtype="https://schema.org/ListItem" aria-current="page">
+                                <span itemprop="name">Hướng dẫn mở tài khoản eKYC</span>
+                                <meta itemprop="position" content="4">
+                            </li>
+
+                        </ol>
+                    </nav>
+                    <h1 class="text-heading-h4-medium text-white">Hướng dẫn mở tài khoản eKYC</h1>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------- section 2 -------------------- -->
+        <style>
+            .custom-li li {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .custom-li li::before {
+                content: '';
+                display: block;
+                width: 24px;
+                height: 24px;
+                background: url(/assets/image/hd-ekyc/check-circle.svg) no-repeat center/cover;
+            }
+        </style>
+        <section class="py-10 lg:pt-14 lg:pb-[100px]">
+            <div class="container">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
+                    <div class="flex-1 flex flex-wrap gap-4">
+                        <a href="#" class="select-view active">Tin tức thị trường</a>
+                        <a href="#" class="select-view">Danh mục ký quỹ APG</a>
+                        <a href="#" class="select-view">Phân tích cổ phiếu hằng ngày</a>
+                        <a href="#" class="select-view">Điểm tin APG</a>
+                    </div>
+                    <a href="#" class="link-primary">
+                        Xem tất cả
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM12.4697 8.46967C12.7626 8.17678 13.2374 8.17678 13.5303 8.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L13.5303 15.5303C13.2374 15.8232 12.7626 15.8232 12.4697 15.5303C12.1768 15.2374 12.1768 14.7626 12.4697 14.4697L14.1893 12.75H8C7.58579 12.75 7.25 12.4142 7.25 12C7.25 11.5858 7.58579 11.25 8 11.25H14.1893L12.4697 9.53033C12.1768 9.23744 12.1768 8.76256 12.4697 8.46967Z"
+                                fill="#FA662B" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="mt-10">
+                    <div class="news-wrap full">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-lg-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-heading-h5-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 lg:mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-x-6 lg:gap-y-12">
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news-wrap">
+                        <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                alt="item"></figure>
+                        <div class="content">
+                            <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                            <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                tin thị
+                                trường ngày 10/03/2025</h2>
+                            <a href="#" class="link">
+                                Xem tất cả
+                                <figure class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                        fill="none">
+                                        <path
+                                            d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                            stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-14 lg:mt-[120px]">
+                    <h2 class="text-heading-h4-medium text-purple-gray-80">Tin cũ hơn</h2>
+                    <div
+                        class="mt-10 lg:mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-x-6 lg:gap-y-12">
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news-wrap">
+                            <figure class="rounded-2xl overflow-hidden"><img src="/assets/image/kien-thuc/item-img.png"
+                                    alt="item"></figure>
+                            <div class="content">
+                                <p class="text-body-md-medium text-purple-gray-50">10/03/2025</p>
+                                <h2 class="title text-body-lg-semibold text-purple-gray-80 truncate-2row">Bản
+                                    tin thị
+                                    trường ngày 10/03/2025</h2>
+                                <a href="#" class="link">
+                                    Xem tất cả
+                                    <figure class="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"
+                                            fill="none">
+                                            <path
+                                                d="M1 13L6.5286 7.4714C6.75082 7.24918 6.86193 7.13807 6.86193 7C6.86193 6.86193 6.75082 6.75082 6.5286 6.5286L1 1"
+                                                stroke="#FA882B" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------- section 3 -------------------- -->
+
+        <!-- -------------------- section 4 -------------------- -->
+
+        <!-- -------------------- section 5 -------------------- -->
+
+        <!-- -------------------- section 6 -------------------- -->
+
+        <!-- -------------------- section 7 -------------------- -->
+
+        <!-- -------------------- section 7 -------------------- -->
+
+        <!-- -------------------- section 8 -------------------- -->
+
+
+
+    </main>
+    <footer class="footer bg-white shadow-footer">
+        <div class="container pt-12 pb-14">
+            <!-- more info -->
+            <div class="flex flex-col md:flex-row items-center gap-10 justify-between">
+                <div class="max-w-[324px] flex items-center gap-5">
+                    <a href="#" class="">
+                        <figure class="max-w-[115px]"><img src="/assets/image/footer-logo.svg" alt="logo"></figure>
+                    </a>
+                    <hr class="divider-d6 vertical min-h-12">
+                    <p class="text-body-md-medium text-gray-70">
+                        Công ty chứng khoán <br>
+                        Securities Company
+                    </p>
+                </div>
+                <div class="flex items-center gap-6">
+                    <p class="text-body-md-medium text-purple-gray-90">Kết nối với chúng tôi</p>
+                    <div class="social-list">
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <g clip-path="url(#clip0_2366_3195)">
+                                    <path
+                                        d="M23.5221 6.18546C23.3864 5.67487 23.119 5.20888 22.7466 4.83411C22.3743 4.45935 21.91 4.18896 21.4003 4.05C19.5239 3.54546 12.0239 3.54546 12.0239 3.54546C12.0239 3.54546 4.52393 3.54546 2.64756 4.05C2.13786 4.18896 1.67358 4.45935 1.30121 4.83411C0.928842 5.20888 0.661431 5.67487 0.525744 6.18546C0.0239258 8.07 0.0239258 12 0.0239258 12C0.0239258 12 0.0239258 15.93 0.525744 17.8145C0.661431 18.3251 0.928842 18.7911 1.30121 19.1659C1.67358 19.5407 2.13786 19.811 2.64756 19.95C4.52393 20.4545 12.0239 20.4545 12.0239 20.4545C12.0239 20.4545 19.5239 20.4545 21.4003 19.95C21.91 19.811 22.3743 19.5407 22.7466 19.1659C23.119 18.7911 23.3864 18.3251 23.5221 17.8145C24.0239 15.93 24.0239 12 24.0239 12C24.0239 12 24.0239 8.07 23.5221 6.18546Z"
+                                        fill="url(#paint0_linear_2366_3195)" />
+                                    <path d="M9.56934 15.5687V8.4314L15.8421 12L9.56934 15.5687Z" fill="#FEFEFE" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3195" x1="12.0239" y1="-1.31757" x2="12.0239"
+                                        y2="27.6202" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2366_3195">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M17.585 13.5L18.2515 9.15656H14.0839V6.33797C14.0839 5.14969 14.6661 3.99141 16.5326 3.99141H18.4273V0.293438C18.4273 0.293438 16.7079 0 15.064 0C11.6318 0 9.3884 2.08031 9.3884 5.84625V9.15656H5.57324V13.5H9.3884V24H14.0839V13.5H17.585Z"
+                                    fill="url(#paint0_linear_2366_3196)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3196" x1="12.0003" y1="-6.90236" x2="12.0003"
+                                        y2="34.1707" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="12" viewBox="0 0 33 12"
+                                fill="none">
+                                <path
+                                    d="M17.1737 3.53645V2.89527H19.0259V11.9031H17.9671C17.7575 11.9035 17.5564 11.8178 17.4077 11.6647C17.259 11.5117 17.1748 11.3038 17.1737 11.0867C16.4008 11.6734 15.4672 11.9903 14.509 11.9886C13.3119 11.9886 12.1638 11.496 11.317 10.6191C10.4703 9.74221 9.99423 8.55278 9.9935 7.31228C9.99423 6.07178 10.4703 4.88234 11.317 4.00544C12.1638 3.12855 13.3119 2.63595 14.509 2.63595C15.4667 2.63453 16.4012 2.95002 17.1737 3.53645ZM9.51363 0V0.292092C9.51363 0.836381 9.4435 1.28093 9.10112 1.80242L9.05988 1.85087C8.94592 1.98352 8.83497 2.11892 8.72713 2.25695L2.783 9.98813H9.51363V11.0824C9.51363 11.1903 9.49309 11.2971 9.45321 11.3968C9.41332 11.4965 9.35486 11.587 9.28117 11.6632C9.20748 11.7395 9.12001 11.7999 9.02376 11.841C8.92751 11.8822 8.82437 11.9033 8.72025 11.9031H0V11.3873C0 10.7561 0.15125 10.474 0.34375 10.1805L6.67975 2.05177H0.264V0H9.51363ZM21.2712 11.9031C21.0962 11.9031 20.9283 11.8311 20.8046 11.7028C20.6808 11.5745 20.6112 11.4006 20.6112 11.2192V0H22.5926V11.9031H21.2712ZM28.4529 2.57896C29.0498 2.57877 29.641 2.70043 30.1926 2.93698C30.7441 3.17353 31.2454 3.52035 31.6676 3.95763C32.0898 4.39491 32.4248 4.91409 32.6535 5.48553C32.8821 6.05696 32.9998 6.66946 33 7.28805C33.0002 7.90665 32.8828 8.51922 32.6545 9.0908C32.4262 9.66238 32.0915 10.1818 31.6696 10.6193C31.2476 11.0569 30.7465 11.404 30.1951 11.6409C29.6437 11.8778 29.0526 11.9998 28.4556 12C27.25 12.0004 26.0936 11.5045 25.2409 10.6213C24.3881 9.7382 23.9089 8.54021 23.9085 7.2909C23.9081 6.0416 24.3867 4.84331 25.2389 3.95965C26.0912 3.07599 27.2473 2.57934 28.4529 2.57896ZM14.5104 10.0636C14.8642 10.072 15.2161 10.007 15.5454 9.87242C15.8746 9.73786 16.1746 9.53648 16.4277 9.2801C16.6809 9.02372 16.882 8.71751 17.0193 8.37946C17.1566 8.04141 17.2273 7.67834 17.2273 7.31157C17.2273 6.94479 17.1566 6.58172 17.0193 6.24367C16.882 5.90562 16.6809 5.59941 16.4277 5.34303C16.1746 5.08665 15.8746 4.88527 15.5454 4.75071C15.2161 4.61616 14.8642 4.55114 14.5104 4.55949C13.8165 4.57585 13.1563 4.87298 12.6711 5.38732C12.186 5.90165 11.9143 6.59233 11.9143 7.31157C11.9143 8.03081 12.186 8.72148 12.6711 9.23581C13.1563 9.75014 13.8165 10.0473 14.5104 10.0636ZM28.4529 10.0594C29.1622 10.0594 29.8424 9.76739 30.3439 9.24767C30.8455 8.72795 31.1273 8.02305 31.1273 7.28805C31.1273 6.55306 30.8455 5.84816 30.3439 5.32844C29.8424 4.80872 29.1622 4.51674 28.4529 4.51674C27.7436 4.51674 27.0633 4.80872 26.5618 5.32844C26.0603 5.84816 25.7785 6.55306 25.7785 7.28805C25.7785 8.02305 26.0603 8.72795 26.5618 9.24767C27.0633 9.76739 27.7436 10.0594 28.4529 10.0594Z"
+                                    fill="url(#paint0_linear_2366_3198)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3198" x1="16.5" y1="-3.45118" x2="16.5"
+                                        y2="17.0853" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M2.96229 20.0003C2.4029 20.0003 1.93621 19.8133 1.56221 19.4393C1.18821 19.0653 1.00081 18.5982 1 18.038V4.96256C1 4.40318 1.1874 3.93649 1.56221 3.56249C1.93702 3.18849 2.40331 3.00108 2.96107 3.00027H20.8961C21.4546 3.00027 21.9209 3.18768 22.2949 3.56249C22.6689 3.9373 22.8563 4.40399 22.8571 4.96256V18.0392C22.8571 18.5978 22.6697 19.0645 22.2949 19.4393C21.9201 19.8141 21.4538 20.0011 20.8961 20.0003H2.96229ZM11.9286 11.4517C12.0298 11.4517 12.1245 11.4363 12.2127 11.4056C12.3001 11.3748 12.3868 11.3372 12.4726 11.2926L21.2506 5.54542C21.3656 5.4758 21.4405 5.38068 21.4753 5.26006C21.5101 5.13944 21.5036 5.01923 21.4559 4.89942C21.4251 4.74318 21.3231 4.62985 21.1499 4.55942C20.9774 4.4898 20.8103 4.50396 20.6484 4.60192L11.9286 10.286L3.21 4.60313C3.04809 4.50437 2.88457 4.48332 2.71943 4.53999C2.55429 4.59666 2.44824 4.70837 2.40129 4.87513C2.35433 4.9998 2.34826 5.12649 2.38307 5.2552C2.41788 5.38392 2.49236 5.48106 2.6065 5.54663L11.3846 11.2926C11.4704 11.3372 11.557 11.3748 11.6444 11.4056C11.7327 11.4355 11.8274 11.4505 11.9286 11.4505"
+                                    fill="url(#paint0_linear_2366_3199)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_2366_3199" x1="11.9286" y1="-1.8889" x2="11.9286"
+                                        y2="27.2045" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#F69A00" />
+                                        <stop offset="1" stop-color="#F04400" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-8 divider-d6">
+            <div class="mt-8 lg:mt-14 grid grid-cols-12 gap-6">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
+                    <div class="lg:max-w-[256px] flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Thông tin Website</h2>
+                        <div class="flex flex-col gap-3">
+                            <a href="#" class="link-text">Điều khoản sử dụng</a>
+                            <a href="#" class="link-text">Về APG</a>
+                            <a href="#" class="link-text">Liên hệ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-5">
+                    <div class="lg:max-w-[385px] flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Trụ sở chính</h2>
+                        <div class="">
+                            <a href="#" class="link-text">
+                                Tầng 5, Tòa nhà Grand Building, 32 Hòa Mã, Hai Bà Trưng, Hà Nội.
+                            </a>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Phone:
+                                <a href="#" class="inline-block link-text">
+                                    (84-24) 3941 0277
+                                </a>
+                            </p>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Fax:
+                                <a href="#" class="inline-block link-text">
+                                    (84-24) 3941 0323
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-3">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Chi nhánh</h2>
+                        <div class="">
+                            <a href="#" class="link-text">
+                                Khu dịch vụ, tầng 1, khối B, chung cư Petro Vietnam Landmark, 65 Mai Chí Thọ, phường An
+                                Phú, TP. Thủ Đức, TP. Hồ Chí
+                                Minh.
+                            </a>
+                            <p class="text-body-sm-regular text-purple-gray-70">
+                                Phone:
+                                <a href="#" class="inline-block link-text">
+                                    (84-28) 9999 0868
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-14 divider-d6">
+
+            <div class="mt-8 flex flex-col md:flex-row md:items-center gap-10 justify-between">
+                <div class="grid grid-cols-2 gap-x-3 md:gap-x-10 gap-y-3">
+                    <div class="col-span-2">
+                        <h2 class="text-body-md-medium text-purple-gray-90">Hotline</h2>
+                    </div>
+                    <a href="#" class="link-secondary text-sub-heading">
+                        (84-24) 3941 0277
+                    </a>
+                    <a href="#" class="link-secondary text-sub-heading">
+                        dvkh@apsi.vn
+                    </a>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <h2 class="text-body-md-medium text-purple-gray-90">Tải ứng dụng APG Trading</h2>
+                    <div class="flex items-center gap-4">
+                        <a href="#" class="">
+                            <figure><img src="/assets/image/apple-download.svg" alt="download"></figure>
+                        </a>
+                        <a href="#" class="">
+                            <figure><img src="/assets/image/google-download.svg" alt="download"></figure>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="border-t border-solid border-purple-gray-20 py-[26px]">
+            <div class="container flex items-center justify-center">
+                <p class="text-body-md-regular text-purple-gray-60 text-center">
+                    © 2025. Bản quyền thuộc về <a href="#" class="inline-block hover:text-primary">
+                        Công Ty Cổ phần Chứng Khoán APG
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- header script -->
+    <script defer src="/assets/js/header-scroll.js"></script>
+    <script defer src="/assets/js/sub-menu.js"></script>
+    <script defer src="/assets/js/header.js"></script>
+    <script defer src="/assets/js/accordion.js"></script>
+
+    <script defer src="/assets/js/tab-switch.js"></script>
+</body>
+
+</html>

@@ -33,10 +33,12 @@ tailwind.config = {
                 70: '#FBA762',
                 60: '#FA882B',
                 50: '#E26F11',
+                'demo-250': '#fa662b',
             },
             secondary: {
                 DEFAULT: "#7d55ff",
                 80: '#B7A1FF',
+                'demo-260': '#5466f3',
             },
             mono: {
                 gray: {
